@@ -1,0 +1,2 @@
+include ':app', ':cardiac_information'
+rootProject.name='Mobile Functioning'

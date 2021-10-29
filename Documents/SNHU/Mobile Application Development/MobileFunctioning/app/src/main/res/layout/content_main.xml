@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="490dp"
+        android:linksClickable="false"
+        android:text="@string/healing_hospital"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.356" />
+
+    <LinearLayout
+        android:id="@+id/screen"
+        android:layout_width="383dp"
+        android:layout_height="429dp"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:layout_marginBottom="154dp"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.538"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.0">
+
+        <Button
+            android:id="@+id/button13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cardio"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/ortho14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Orthopedic"
+            android:onClick="Orthopedic2"
+            android:visibility="visible"
+            tools:visibility="visible"/>
+
+
+        <Button
+            android:id="@+id/neuro1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Neurosciences" />
+
+        <Button
+            android:id="@+id/button16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancer" />
+
+        <Button
+            android:id="@+id/button17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find A Doctor" />
+
+        <Button
+            android:id="@+id/button18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medical Services" />
+
+        <Button
+            android:id="@+id/button20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Patient and Visitor" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Careers" />
+
+        <Button
+            android:id="@+id/button26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pay Your Bill" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="69dp"
+        android:layout_height="31dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginLeft="312dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        android:layout_marginBottom="66dp"
+        android:background="?attr/colorPrimary"
+        android:text="@string/login"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toTopOf="@+id/screen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.736"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

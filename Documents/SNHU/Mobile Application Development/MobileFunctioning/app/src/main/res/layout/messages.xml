@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/editText57"
+            android:layout_width="71dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/back"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="13dp" />
+
+        <Button
+            android:id="@+id/button10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="Button"
+            tools:layout_editor_absoluteX="312dp"
+            tools:layout_editor_absoluteY="13dp" />
+
+        <EditText
+            android:id="@+id/editText58"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Messages"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="126dp" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="381dp"
+            android:layout_height="420dp"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="190dp" />
+
+        <EditText
+            android:id="@+id/editText59"
+            android:layout_width="46dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="To:"
+            tools:layout_editor_absoluteX="36dp"
+            tools:layout_editor_absoluteY="212dp" />
+
+        <EditText
+            android:id="@+id/editText60"
+            android:layout_width="65dp"
+            android:layout_height="49dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Yes"
+            android:textColor="@color/design_default_color_primary"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="277dp" />
+
+        <EditText
+            android:id="@+id/editText61"
+            android:layout_width="188dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Any pain"
+            tools:layout_editor_absoluteX="99dp"
+            tools:layout_editor_absoluteY="277dp" />
+
+        <EditText
+            android:id="@+id/editText62"
+            android:layout_width="65dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Yes"
+            android:textColor="@color/design_default_color_primary"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="330dp" />
+
+        <EditText
+            android:id="@+id/editText63"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Are you taking any medication"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="331dp" />
+
+        <EditText
+            android:id="@+id/editText64"
+            android:layout_width="63dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Yes"
+            android:textColor="@color/design_default_color_primary"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="387dp" />
+
+        <EditText
+            android:id="@+id/editText65"
+            android:layout_width="287dp"
+            android:layout_height="45dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Can you see the doctor this week"
+            tools:layout_editor_absoluteX="103dp"
+            tools:layout_editor_absoluteY="385dp" />
+
+        <EditText
+            android:id="@+id/editText66"
+            android:layout_width="67dp"
+            android:layout_height="47dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="NO"
+            android:textColor="@color/design_default_color_primary"
+            tools:layout_editor_absoluteX="34dp"
+            tools:layout_editor_absoluteY="442dp" />
+
+        <EditText
+            android:id="@+id/editText68"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:gravity="start|top"
+            android:inputType="textMultiLine"
+            android:text="Do you currently show any signs of CORVID-19"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="442dp" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/design_default_color_primary"
+            android:text="Send"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="539dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Billing">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay" />
+
+    <include
+        android:id="@+id/include8"
+        layout="@layout/content_billing"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="31dp"
+        android:layout_height="33dp"
+        app:srcCompat="@android:drawable/ic_menu_save"
+        tools:layout_editor_absoluteX="47dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <Button
+        android:id="@+id/button49"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="307dp"
+        android:layout_marginLeft="307dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="595dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/login"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="587dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Billing"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="109dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount Due"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="173dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="$0.00"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="187dp"
+        tools:layout_editor_absoluteY="215dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="33dp"
+        android:layout_height="29dp"
+        app:srcCompat="@android:drawable/ic_menu_search"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="272dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Account"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="274dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Statements"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="325dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up for paperless billing"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

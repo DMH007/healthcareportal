@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/editText43"
+            android:layout_width="90dp"
+            android:layout_height="54dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Billing"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="122dp" />
+
+        <Button
+            android:id="@+id/button9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="@string/login"
+            tools:layout_editor_absoluteX="307dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <EditText
+            android:id="@+id/editText44"
+            android:layout_width="67dp"
+            android:layout_height="42dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/back"
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="20dp" />
+
+        <EditText
+            android:id="@+id/editText53"
+            android:layout_width="118dp"
+            android:layout_height="44dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Amount Due"
+            tools:layout_editor_absoluteX="146dp"
+            tools:layout_editor_absoluteY="207dp" />
+
+        <EditText
+            android:id="@+id/editText54"
+            android:layout_width="66dp"
+            android:layout_height="47dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="$0.00"
+            tools:layout_editor_absoluteX="172dp"
+            tools:layout_editor_absoluteY="277dp" />
+
+        <SearchView
+            android:layout_width="56dp"
+            android:layout_height="57dp"
+            android:background="@android:drawable/ic_search_category_default"
+            tools:layout_editor_absoluteX="28dp"
+            tools:layout_editor_absoluteY="367dp" />
+
+        <EditText
+            android:id="@+id/editText55"
+            android:layout_width="214dp"
+            android:layout_height="55dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="View Account"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="367dp" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View Statements"
+            tools:layout_editor_absoluteX="30dp"
+            tools:layout_editor_absoluteY="449dp" />
+
+        <EditText
+            android:id="@+id/editText56"
+            android:layout_width="244dp"
+            android:layout_height="57dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Sign up for paperless billing"
+            android:textColor="@color/design_default_color_primary"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="83dp"
+            tools:layout_editor_absoluteY="523dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

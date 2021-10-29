@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimary"
+            android:text="@string/login"
+            tools:layout_editor_absoluteX="295dp"
+            tools:layout_editor_absoluteY="16dp" />
+
+        <EditText
+            android:id="@+id/editText30"
+            android:layout_width="164dp"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Find A Doctor"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="110dp"
+            tools:layout_editor_absoluteY="90dp" />
+
+        <SearchView
+            android:layout_width="40dp"
+            android:layout_height="46dp"
+            android:background="@android:drawable/ic_search_category_default"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="57dp"
+            tools:layout_editor_absoluteY="195dp" />
+
+        <EditText
+            android:id="@+id/editText31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Name"
+            tools:layout_editor_absoluteX="97dp"
+            tools:layout_editor_absoluteY="195dp" />
+
+        <EditText
+            android:id="@+id/editText32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Specialty"
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="271dp" />
+
+        <SearchView
+            android:layout_width="42dp"
+            android:layout_height="42dp"
+            android:background="@android:drawable/ic_search_category_default"
+            tools:layout_editor_absoluteX="57dp"
+            tools:layout_editor_absoluteY="274dp" />
+
+        <SearchView
+            android:layout_width="42dp"
+            android:layout_height="44dp"
+            android:background="@android:drawable/ic_search_category_default"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="341dp" />
+
+        <EditText
+            android:id="@+id/editText33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Location"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="340dp" />
+
+        <EditText
+            android:id="@+id/editText34"
+            android:layout_width="65dp"
+            android:layout_height="0dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/back"
+            tools:layout_editor_absoluteX="11dp"
+            tools:layout_editor_absoluteY="14dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Orthopedic2">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        tools:layout_conversion_absoluteHeight="56dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <include
+        android:id="@+id/include2"
+        layout="@layout/content_orthopedic2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_conversion_absoluteHeight="603dp"
+        tools:layout_conversion_absoluteWidth="411dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-64dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="339dp"
+        android:layout_marginLeft="339dp"
+        android:layout_marginTop="540dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="63dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:drawable/ic_dialog_email"
+        tools:layout_conversion_absoluteHeight="56dp"
+        tools:layout_conversion_absoluteWidth="56dp" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="65dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="295dp"
+        android:layout_marginLeft="295dp"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp"
+        android:background="@color/colorPrimary"
+        android:text="Login"
+        app:layout_constraintBottom_toTopOf="@+id/include2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_conversion_absoluteHeight="108dp"
+        tools:layout_conversion_absoluteWidth="190dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="146dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Orthopedic"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/button14"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Hands1"
+        android:layout_width="366dp"
+        android:layout_height="41dp"
+        android:layout_marginTop="500dp"
+        android:text="Hands"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/include2" />
+
+    <Button
+        android:id="@+id/Knees1"
+        android:layout_width="363dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="359dp"
+        android:layout_marginBottom="260dp"
+        android:text="Knees"
+        app:layout_constraintBottom_toBottomOf="@+id/include2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.35"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/include2" />
+
+    <Button
+        android:id="@+id/Spine1"
+        android:layout_width="362dp"
+        android:layout_height="44dp"
+        android:text="Spine"
+        app:layout_constraintBottom_toBottomOf="@+id/include2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.346"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Knees1"
+        app:layout_constraintVertical_bias="0.055" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="361dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="490dp"
+        android:layout_marginLeft="490dp"
+        android:layout_marginEnd="90dp"
+        android:layout_marginRight="90dp"
+        android:text="Foot and Ankle"
+        app:layout_constraintBottom_toTopOf="@+id/button32"
+        app:layout_constraintEnd_toStartOf="@+id/include2"
+        app:layout_constraintHorizontal_bias="0.499"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.935" />
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="361dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:text="Hands"
+        app:layout_constraintBottom_toTopOf="@+id/Knees1"
+        app:layout_constraintEnd_toEndOf="@+id/include2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
